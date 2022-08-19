@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@400;700&family=Imprima&display=swap');
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    background: linear-gradient(to right, rgba(8, 44, 113, 0.6), rgba(8, 44, 113, 0.6)), url("imgs/BackgroundImage.png") no-repeat fixed;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+}
+
+.bg .navbar {
+    background-color: tranparent !important;
+    color: #FFFFFF !important;
+}
+
+.bg .navbar .nav-link {
+    color: #FFFFFF !important;
+    font-family: 'Imprima';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+}
+.navbar-nav .active a {
+    background: #0C1077; 
+    border-radius: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+   
+}
+
+.bg .navbar .navbar-nav .home {
+    position: absolute;
+    width: 57px;
+    height: 44px;
+    left: 1530px;
+    top: 41px;
+}
+
+.bg .navbar .navbar-nav .about {
+    position: absolute;
+    width: 57px;
+    height: 44px;
+    left: 1661px;
+    top: 41px;
+}
+
+.bg .navbar .navbar-nav .contact {
+    position: absolute;
+    width: 73px;
+    height: 44px;
+    left: 1783px;
+    top: 41px;
+    
+}
+
+.bg .navbar-brand {
+    position: absolute;
+    width: 166px;
+    height: 38px;
+    left: 150px;
+    top: 41px;
+}
+
+.title {
+    position: absolute;
+    width: 750px;
+    height: 410px;
+    left: 150px;
+    top: 120px;
+    font-family: 'Cormorant Infant' !important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 95px;
+    line-height: 115px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.col .icon1 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 150px;
+    top: 533px;
+}
+
+.col .icon2 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 390px;
+    top: 533px;
+}
+
+.col .icon3 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 150px;
+    top: 640px;
+}
+
+.col .icon4 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 390px;
+    top: 640px;
+}
+
+div .feature-one {
+    position: absolute;
+    width: 89px;
+    height: 70px;
+    left: 226px;
+    top: 533px;
+    color: #FFFFFF;
+    font-family: 'Cormorant Infant';
+}
+
+.firsttext {
+    font-family: 'Cormorant Infant';
+    font-size: 25px;
+    line-height: 30.28px;
+    font-weight: 400;
+
+}
+
+.secondtext {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43.6px;
+    display: flex;
+    align-items: center;
+}
+
+div .feature-two {
+    position: absolute;
+    width: 120px;
+    height: 70px;
+    left: 461px;
+    top: 533px;
+    color: #FFFFFF;
+}
+
+div .feature-three {
+    position: absolute;
+    width: 120px;
+    height: 70px;
+    left: 221px;
+    top: 640px;
+    color: #FFFFFF;
+}
+
+div .feature-four {
+    position: absolute;
+    width: 135px;
+    height: 70px;
+    left: 465px;
+    top: 640px;
+    color: #FFFFFF;
+}
+
+footer {
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+
+.footer img {
+    position: relative;
+    width: 92%;
+    height: 246px;
+    left: 150px;
+    top: 707px;
+    padding-top: 50px;
+}
+
+.footer .footer-bg1 {
+    position: absolute;
+    width: 210px;
+    height: 240px;
+    left: 200px;
+    top: 722px;
+    padding-top: 60px;
+}
+
+.footer .footer-bg2 {
+    position: absolute;
+    width: 210px;
+    height: 240px;
+    left: 1105px;
+    top: 722px;
+    padding-top: 60px;
+    margin: 0;
+}
+
+div h5 {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+div p {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.img1-text {
+    position: absolute;
+    width: 232.11px;
+    height: 135px;
+    left: 427.89px;
+    top: 826px;
+}
+
+.img2-text {
+    position: absolute;
+    width: 232.11px;
+    height: 135px;
+    left: 1332.89px;
+    top: 826px;
+}
